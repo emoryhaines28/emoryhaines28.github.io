@@ -7,6 +7,12 @@
             float: left; 
             margin-right: 10px; 
         }
+
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
     </style>
   </head>
 <body>
@@ -21,6 +27,8 @@
   my favorite place because the view is gorgeous and it reminds me of 
   my good friends. It is also so high up that it makes everything
   else look small.</p>
+
+<div class="clearfix"></div>
 <a href="https://ebisushi.com/" target="_blank">Go to Ebi Sushi</a>
 <p>Something no one would expect about me is that I really like Legos.</p>
 </body>
