@@ -1,39 +1,33 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  <head>
-    <title>Assignment 1: Get on Web</title>
-    <style>
-      /* makes image description wrap to right */
-        img {
-            float: left; 
-            margin-right: 10px; 
-        }
+<head>
+<title>List Demo with CSS</title>
+	<style type="text/css">
+		ol {color: #2036C7}
+		ol.items {padding-left: 80px}
+		ol li:first-child{font-weight: 700}
+		ol li ul li {font-weight: 400 !important;}
+		
+		.nav li {display: inline-block; font-size: 20px; padding: 5px 20px 5px 20px; box-sizing:border-box;
+		border: 1px solid #fff; color: #000}
+		
+		.nav li:hover {border: 1px solid #333; color: #fff; background-color: #5961A3}
 
-        /* makes text following description start on new line */
-        .clearfix::after {
-            content: "";
-            display: table;
-            clear: both;
-        }
-    </style>
-  </head>
+		.nav li a {text-decoration: none; color: inherit}	
+	</style>
+</head>
+
 <body>
-  <h1>Name: Emory H</h1>
-  <h2>Major: Computer Science</h2>
-  <p>Public IP address: 130.64.64.40</p>
-  <p>I grew up in Ridgefield, CT.</p>
-  <!-- resized image to fit the page better  -->
-  <img src="IMG_4794.jpeg" alt="This is a picture
-    of me and my friend Katherine on a mountain in Colorado."  width = "300">
-  <p>This is a picture
-  of me and my friend Katherine on a mountain in Colorado. This is 
-  my favorite place because the view is gorgeous and it reminds me of 
-  my good friends. It is also so high up that it makes everything
-  else look small.</p>
-
-  <div class="clearfix"></div>
-  <!-- Make link open in new tab -->
-  <a href="https://ebisushi.com/" target="_blank">Go to Ebi Sushi</a>
-  <p>Something no one would expect about me is that I really like Legos.</p>
+	<h3>Ordered List</h3>
+	<ol start='1' class ="items">
+		<li>first item</li>
+		<li>second item</li>
+		<li>third item</li>
+	</ol>
+	<h3>Navigation</h3>
+	<ul class="nav">
+		<li><a href="staffPage.html">Meet the Staff!</a></li>
+		<li><a href="contactPage.html">contact</a></li>
+	</ul>
 </body>
 </html>
