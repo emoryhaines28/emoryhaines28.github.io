@@ -11,17 +11,11 @@
     background-repeat: no-repeat; /* Prevents the background image from repeating */
     height: 100vh; /* Set the body height to 100% of the viewport height */
     color: #333;
-    text-align: center;
+   
   }
-
-
-  /* form {
-    padding: default;
+  form {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5) ;
   }
-
-  h3 {
-    padding: default;
-  } */
 
 </style>
 <link rel="stylesheet" href="styles.css">
@@ -34,10 +28,9 @@
     <br /><br />
     Dog Name: <input type = "text" name="dog_name" id="doggy_name">
     <br /><br />
-    Fav color (pick one): 
-      <input type="radio" name="color" value="blue">Blue
-      <input type="radio" name="color" value="red">Red
-      <input type="radio" name="color" value="purple">Purple
+    Does your dog have allergies? 
+      <input type="radio" name="allergy_y" value="yes">Yes
+      <input type="radio" name="allergy_n" value="no">No
       <br /><br />
     Dog Size Group (drop down list):
       <select name="dogSize">
@@ -56,10 +49,12 @@
 	
 	</form>
 
-  <h3>Navigation</h3>
+  <img class="image-logo" src="images/logo.png" width="70px">
 	<ul class="nav">
+    <h3>Navigation</h3>
     <li><a href="index.html">Home</a></li>
 		<li><a href="services.html">Services</a></li>
+		<li><a href="contactPage.html">Contact</a></li>
 	</ul>
 </body>
 

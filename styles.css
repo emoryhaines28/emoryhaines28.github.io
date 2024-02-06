@@ -9,9 +9,21 @@ a:hover {background-color:pink}
 .nav li:hover {border: 1px solid #333; color: #fff; background-color: #8e94cc}
 
 .nav li a {text-decoration: none; color: inherit}	
+.nav {
+  bottom: 20px;
+  position:fixed;
+  text-align: center;
+  margin: auto;
+}
 
 .shadowed-text {
   text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.image-logo {
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
 
 body {
