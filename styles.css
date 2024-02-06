@@ -1,4 +1,6 @@
 
+/* Creates the hover effect for navigation bar links */
+/* All style in relation to navigation bar */
 a:link {font-family: arial; color:#eabdf3}
 a:visited {font-family: arial; color: #323232}
 a:active {font-family: arial; color:#323232}
@@ -9,6 +11,8 @@ a:hover {background-color:pink}
 .nav li:hover {border: 1px solid #333; color: #fff; background-color: #8e94cc}
 
 .nav li a {text-decoration: none; color: inherit}	
+
+/* This fixs the position of the navigation bar on all three pages */
 .nav {
   bottom: 20px;
   position:fixed;
@@ -16,25 +20,29 @@ a:hover {background-color:pink}
   margin: auto;
 }
 
+/* This is a shadowed-text effect which has beeen used to make text more 
+visible  */
 .shadowed-text {
   text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
 }
 
+/* This is the style for the fixed logo image in bottom right corner */
 .image-logo {
   position: fixed;
   bottom: 0;
   right: 0;
 }
 
+/* This is the default for everything in the body */
 body {
   color: #8e94cc;
   text-align: center;
+  background-color: pink;
 }
 
+/* Used to make text more visible on page */
 .bold-text {
   font-weight: bold;
 }
 
-body {
-  background-color: pink;
-}
+
