@@ -10,3 +10,7 @@ a:hover {background-color:#aeedaf}
 .nav li:hover {border: 1px solid #333; color: #fff; background-color: #8e94cc}
 
 .nav li a {text-decoration: none; color: inherit}	
+
+body {
+  text-align: center;
+}
