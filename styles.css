@@ -2,10 +2,27 @@
 a:link {font-family: arial; color:#eabdf3}
 a:visited {font-family: arial; color: #323232}
 a:active {font-family: arial; color:#323232}
-a:hover {background-color:#aeedaf}
+a:hover {background-color:pink}
 .nav li {display: inline-block; font-size: 20px; padding: 5px 20px 5px 20px; box-sizing:border-box;
-  border: 1px solid #fff; color: #000}
+  border: 1px solid #fff; color: white}
   
 .nav li:hover {border: 1px solid #333; color: #fff; background-color: #8e94cc}
 
 .nav li a {text-decoration: none; color: inherit}	
+
+.shadowed-text {
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+body {
+  color: #8e94cc;
+  text-align: center;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+body {
+  background-color: pink;
+}
